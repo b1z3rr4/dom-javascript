@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Manipulação de DOM</title>
+    <style>
+        .highlight {
+            color: red;
+            font-weight: bold;
+        }
+
+        .botoes-azul {
+            background-color: blue;
+            color: white;
+        }
+
+        #lista > li {
+            background-color: red;
+            color: white;
+            margin: 10px
+        }
+    </style>
+</head>
+<body>
+    <h1 id="titulo">Manipulação de DOM com JavaScript</h1>
+    <p class="paragrafo">Este é um parágrafo de exemplo.</p>
+    <p class="paragrafo">Outro parágrafo de exemplo.</p>
+
+    <div>
+        <input id="meu-input" value="Meu texto" type="text">
+    </div>
+
+    <div>
+        <select id="meu-seletor">
+            <option>Item 1</option>
+            <option>Item 2</option>
+            <option>Item 3</option>
+        </select>
+    </div>
+
+    <button id="alterarTexto" class="botao-primario">Alterar Texto</button>
+    <button id="adicionarElemento">Adicionar Elemento</button>
+    <button id="modificarEstilo">Modificar Estilo</button>
+    <button id="removerEstilos">Remover Estilo</button>
+    <button id="removerElemento">Remover Elemento</button>
+    <ul id="lista">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <script src="script.js"></script>
+</body>
+</html>
